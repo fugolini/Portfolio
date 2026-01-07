@@ -37,8 +37,9 @@ NOTE: A subscription is needed to download the newspaper.
 I have installed on crontab on my Raspberry Pi:
   
 30 23 * * 2-7 /path/to/venv/bin/python3 /path/to/script/main.py >> /path/to/log/cronlog.log 2>&1  
-(There's no newspaper on Mondays)    
+(There's no newspaper on Mondays)  
+  
 NOTE: If you decide to install the crontab make sure to use absolute paths in the script!      
-
-
+  
+  
 Tested on Debian 13 (Trixie) and Raspberry Pi OS
