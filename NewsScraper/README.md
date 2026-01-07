@@ -4,7 +4,7 @@ A simple yet powerful news scraper
 
 ## Overview
 
-A scraper that accesses that logs into the website of a well-known Italian newspaper, downloads the daily edition in PDF format, uploads it to an upload service, and finally emails it to a list of recipients through my personal gmail. The email will also include a list of the last six editions. 
+A scraper that logs into the website of a well-known Italian newspaper, downloads the daily edition in PDF format, uploads it to an upload service, and finally emails it to a list of recipients through my personal gmail. The email will also include a list of the last six editions. 
 The credentials (gmail token, newspaper website password and emails) are securely stored in a Fernet-encrypted file. The Fernet key is stored in a separate file. The address book is in json format, and so is the archive of editions.
 For robustness, the program preserves a timestamped log. Should anything fail, the log is sent to the sender of the email (my personal email).  
 NOTE: A subscription is needed to download the newspaper.
