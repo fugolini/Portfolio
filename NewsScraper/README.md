@@ -34,10 +34,9 @@ NOTE: A subscription is needed to download the newspaper.
 - utils.py --> tangential but usual functions that do not fit any of the classes above
 
 ## Setup
-- I have set it up with this crontab on my Raspberry Pi:
+I have installed on crontab on my Raspberry Pi:
   
 30 23 * * 2-7 /path/to/venv/bin/python3 /path/to/script/main.py >> /path/to/log/cronlog.log 2>&1  
-  
 (There's no newspaper on Mondays)  
 NOTE: If you decide to install the crontab make sure to use absolute paths in the script!
 
