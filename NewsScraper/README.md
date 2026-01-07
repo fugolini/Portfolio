@@ -4,8 +4,8 @@ A simple yet powerful news scraper
 
 ## Overview
 
-A scraper that logs into the website of a well-known Italian newspaper, downloads the daily edition in PDF format, uploads it to an upload service, and finally emails it to a list of recipients through my personal gmail. The email will also include a the downloa links to the last six editions. 
-The credentials (gmail token, newspaper website password and emails) are securely Fernet-encrypted and stored in a .creds file. The Fernet key is stored in a separate file. The address book is in json format, and so is the archive of editions.
+A scraper that logs into the website of a well-known Italian newspaper, downloads the daily edition in PDF format, uploads it to an upload service, and finally emails it to a list of recipients through my personal gmail. The email will also include the download links to the last six editions. 
+The credentials (gmail token, newspaper website password and emails) are securely Fernet-encrypted and stored in a .creds file. The encryption key is stored separately. The address book is in json format, and so is the archive of editions.
 For robustness, the program preserves a timestamped log. Should anything fail, the log is sent to the sender of the email (my personal email).  
 NOTE: A subscription is needed to download the newspaper.
 
@@ -16,7 +16,7 @@ NOTE: A subscription is needed to download the newspaper.
 4. Having my Raspberry Pi send me the newspaper every morning.
 
 ## Key features
-- Fast and safe encryption of all sensitive data via Fernet
+- Fast and safe encryption
 - An archive of editions updated daily
 - Very easily extendable
 - A command line interface which provides test runs and easy manipulation of the address book.  
