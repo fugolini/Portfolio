@@ -92,7 +92,7 @@ class Mailer:
                 email["To"] = self.recipients[0]
             self.log += "\nEmail set up correctly."
         else:
-            email["Subject"] = f"ManiScraper: si è verificato un errore"
+            email["Subject"] = f"NewsScraper: si è verificato un errore"
             email["To"] = self.sender
             with open(self.log_path, 'rb') as l:
                 email.add_attachment(l.read(),

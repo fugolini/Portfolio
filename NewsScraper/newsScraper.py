@@ -181,7 +181,7 @@ class NewsScraper:
         self.log += "\nPdf appended to the archive."
 
     def _wait_for_download(self):
-        """Waits for the download to pop up in the donwload folder"""
+        """Waits for the download to pop up in the download folder"""
         timeout = 30
         end_time = time.time() + timeout
         while time.time() < end_time:

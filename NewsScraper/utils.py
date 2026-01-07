@@ -90,6 +90,7 @@ def decrypt_credentials(file_path):
 
     return decrypted_dict
 
+
 def print_address_book():
     """Print the address book"""
     print("\n*** Recipients ***\n")
@@ -100,6 +101,7 @@ def print_address_book():
         print(f'{i}. {recipient}')
         i += 1
     print('\n')
+
 
 def add_recipient(recipient):
     """Add a recipient to the address book"""
@@ -113,6 +115,7 @@ def add_recipient(recipient):
     
     print(f"{recipient} has been added to the address book.\n")
 
+
 def remove_recipient(recipient):
     """Remove a recipient from the address_books"""
     with open('address_book.json', 'r') as a:
@@ -125,6 +128,7 @@ def remove_recipient(recipient):
         print(f'{recipient} was removed from the address book.\n')
     else:
         print(f'{recipient} is not in the address book.\n')
+
 
 def write_log(log):
     """Save the log to a file"""
