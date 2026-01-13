@@ -1,0 +1,973 @@
+2026-01-12 13:13:18,469 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:17:27,191 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:17:28,450 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 13:17:28,450 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 13:17:29,222 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 13:17:29,499 [INFO] maniScraper: Logged in.
+2026-01-12 13:17:38,268 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 13:18:19,800 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:18:20,733 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 13:18:20,733 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 13:18:21,510 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 13:18:21,775 [INFO] maniScraper: Logged in.
+2026-01-12 13:18:30,531 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 13:18:43,047 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:18:43,047 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 13:18:43,048 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:18:43,048 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/il-manifesto-del-11-gennaio-2026.pdf'
+2026-01-12 13:18:43,141 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:18:44,200 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 13:18:44,200 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 13:18:45,164 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:18:48,637 [INFO] repuScraper: Logged in.
+2026-01-12 13:18:57,208 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:19:10,188 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 13:19:19,877 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 13:19:33,331 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:19:33,331 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 13:19:33,336 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:19:33,439 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:19:34,514 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 13:19:34,514 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 13:19:35,424 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 13:19:38,659 [INFO] stampaScraper: Logged in.
+2026-01-12 13:19:48,445 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 13:19:49,520 [ERROR] stampaScraper: Message: element click intercepted: Element <button id="extra-content" class="premium-button column-9" value="submit" type="submit" onclick="downloadPdf()">...</button> is not clickable at point (385, 716). Other element would receive the click: <div class="iubenda-cs-rationale">...</div>
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x559fe92df19a <unknown>
+#1 0x559fe8d5cc4b <unknown>
+#2 0x559fe8db5084 <unknown>
+#3 0x559fe8db2f48 <unknown>
+#4 0x559fe8db066a <unknown>
+#5 0x559fe8daf7b9 <unknown>
+#6 0x559fe8da2ad2 <unknown>
+#7 0x559fe8da2477 <unknown>
+#8 0x559fe8df9bee <unknown>
+#9 0x559fe8da0c42 <unknown>
+#10 0x559fe8da18f1 <unknown>
+#11 0x559fe92a7f39 <unknown>
+#12 0x559fe92aae7d <unknown>
+#13 0x559fe9290c81 <unknown>
+#14 0x559fe92aba5b <unknown>
+#15 0x559fe9277a50 <unknown>
+#16 0x559fe92ccaa8 <unknown>
+#17 0x559fe92ccc79 <unknown>
+#18 0x559fe92de4f3 <unknown>
+#19 0x7f9725120b7b <unknown>
+
+2026-01-12 13:19:49,602 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 13:23:46,116 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:23:47,076 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 13:23:47,077 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 13:23:47,769 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 13:23:48,074 [INFO] maniScraper: Logged in.
+2026-01-12 13:23:56,853 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 13:24:09,270 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:24:09,270 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 13:24:09,271 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:24:09,271 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/il-manifesto-del-11-gennaio-2026.pdf'
+2026-01-12 13:24:09,369 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:24:10,415 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 13:24:10,415 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 13:24:11,136 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:24:14,576 [INFO] repuScraper: Logged in.
+2026-01-12 13:24:23,338 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:24:36,018 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 13:24:45,657 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 13:24:59,205 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:24:59,205 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 13:24:59,209 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:24:59,314 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:25:00,400 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 13:25:00,400 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 13:25:01,237 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 13:25:04,672 [INFO] stampaScraper: Logged in.
+2026-01-12 13:25:14,498 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 13:25:15,606 [ERROR] stampaScraper: Message: element click intercepted: Element <button id="extra-content" class="premium-button column-9" value="submit" type="submit" onclick="downloadPdf()">...</button> is not clickable at point (385, 716). Other element would receive the click: <div class="iubenda-cs-rationale">...</div>
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5651041c919a <unknown>
+#1 0x565103c46c4b <unknown>
+#2 0x565103c9f084 <unknown>
+#3 0x565103c9cf48 <unknown>
+#4 0x565103c9a66a <unknown>
+#5 0x565103c997b9 <unknown>
+#6 0x565103c8cad2 <unknown>
+#7 0x565103c8c477 <unknown>
+#8 0x565103ce3bee <unknown>
+#9 0x565103c8ac42 <unknown>
+#10 0x565103c8b8f1 <unknown>
+#11 0x565104191f39 <unknown>
+#12 0x565104194e7d <unknown>
+#13 0x56510417ac81 <unknown>
+#14 0x565104195a5b <unknown>
+#15 0x565104161a50 <unknown>
+#16 0x5651041b6aa8 <unknown>
+#17 0x5651041b6c79 <unknown>
+#18 0x5651041c84f3 <unknown>
+#19 0x7f978ff91b7b <unknown>
+
+2026-01-12 13:25:15,680 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 13:27:49,895 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:27:50,661 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 13:27:50,661 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 13:27:51,604 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 13:27:51,928 [INFO] maniScraper: Logged in.
+2026-01-12 13:28:00,720 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 13:28:13,112 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:28:13,113 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 13:28:13,114 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:28:13,114 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/il-manifesto-del-11-gennaio-2026.pdf'
+2026-01-12 13:28:13,213 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:28:14,171 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 13:28:14,171 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 13:28:15,909 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:28:19,125 [INFO] repuScraper: Logged in.
+2026-01-12 13:28:27,929 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:28:40,558 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 13:28:50,055 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 13:29:02,266 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:29:02,275 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 13:29:02,279 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:29:02,386 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:29:03,412 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 13:29:03,412 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 13:29:04,250 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 13:29:07,481 [INFO] stampaScraper: Logged in.
+2026-01-12 13:29:16,141 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 13:29:28,874 [INFO] stampaScraper: The PDF file is stable.
+2026-01-12 13:29:37,355 [INFO] stampaScraper: The PDF file has been compressed.
+2026-01-12 13:29:52,892 [INFO] stampaScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:29:52,892 [INFO] stampaScraper: Pdf appended to the archive.
+2026-01-12 13:29:52,899 [INFO] stampaScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:29:52,992 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 13:29:52,993 [INFO] mailer: Old editions fetched.
+2026-01-12 13:29:52,993 [INFO] mailer: Old editions fetched.
+2026-01-12 13:29:52,994 [INFO] mailer: Old editions fetched.
+2026-01-12 13:29:52,994 [INFO] mailer: HTML body built correctly.
+2026-01-12 13:29:53,004 [INFO] mailer: Email set up correctly.
+2026-01-12 13:29:54,692 [INFO] mailer: Email sent.
+2026-01-12 13:29:54,692 [INFO] mailer: All done!
+2026-01-12 13:35:42,046 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:35:43,041 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 13:35:43,041 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 13:35:43,673 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 13:35:43,936 [INFO] maniScraper: Logged in.
+2026-01-12 13:35:52,832 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 13:36:05,224 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:36:05,224 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 13:36:05,225 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:36:05,225 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/il-manifesto-del-11-gennaio-2026.pdf'
+2026-01-12 13:36:05,318 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:36:06,284 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 13:36:06,284 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 13:36:08,033 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:36:11,464 [INFO] repuScraper: Logged in.
+2026-01-12 13:36:20,124 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:36:32,964 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 13:36:42,522 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 13:36:56,836 [ERROR] repuScraper: 'RepuScraper' object has no attribute 'date'
+2026-01-12 13:36:56,986 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:36:58,017 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 13:36:58,017 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 13:36:58,815 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 13:37:02,048 [INFO] stampaScraper: Logged in.
+2026-01-12 13:37:10,186 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 13:37:23,234 [INFO] stampaScraper: The PDF file is stable.
+2026-01-12 13:37:28,134 [INFO] stampaScraper: The PDF file has been compressed.
+2026-01-12 13:37:42,056 [ERROR] stampaScraper: 'StampaScraper' object has no attribute 'date'
+2026-01-12 13:37:42,151 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 13:37:42,151 [INFO] mailer: Old editions fetched.
+2026-01-12 13:37:42,152 [INFO] mailer: Old editions fetched.
+2026-01-12 13:37:42,152 [INFO] mailer: Old editions fetched.
+2026-01-12 13:37:42,152 [INFO] mailer: HTML body built correctly.
+2026-01-12 13:37:42,159 [INFO] mailer: Email set up correctly.
+2026-01-12 13:37:43,857 [INFO] mailer: Email sent.
+2026-01-12 13:37:43,857 [INFO] mailer: All done!
+2026-01-12 13:40:14,724 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:40:15,789 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 13:40:15,789 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 13:40:16,445 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 13:40:16,715 [INFO] maniScraper: Logged in.
+2026-01-12 13:40:25,130 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 13:40:37,785 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:40:37,785 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 13:40:37,790 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:40:37,790 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/ROMA_all-12012026-ec3b94b3b000c6421b8041a5eb6087c0_compressed_compressed.pdf'
+2026-01-12 13:40:37,884 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:40:38,879 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 13:40:38,879 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 13:40:39,777 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:40:43,006 [INFO] repuScraper: Logged in.
+2026-01-12 13:40:51,557 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 13:41:04,667 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 13:41:14,301 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 13:41:27,669 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 13:41:27,670 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 13:41:27,674 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 13:41:27,782 [INFO] newsScraper: Selenium options set.
+2026-01-12 13:41:28,816 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 13:41:28,816 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 13:41:29,731 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 13:41:33,171 [INFO] stampaScraper: Logged in.
+2026-01-12 13:41:42,991 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 13:41:44,110 [ERROR] stampaScraper: Message: element click intercepted: Element <button id="extra-content" class="premium-button column-9" value="submit" type="submit" onclick="downloadPdf()">...</button> is not clickable at point (385, 716). Other element would receive the click: <div class="iubenda-cs-rationale">...</div>
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x55bfd755219a <unknown>
+#1 0x55bfd6fcfc4b <unknown>
+#2 0x55bfd7028084 <unknown>
+#3 0x55bfd7025f48 <unknown>
+#4 0x55bfd702366a <unknown>
+#5 0x55bfd70227b9 <unknown>
+#6 0x55bfd7015ad2 <unknown>
+#7 0x55bfd7015477 <unknown>
+#8 0x55bfd706cbee <unknown>
+#9 0x55bfd7013c42 <unknown>
+#10 0x55bfd70148f1 <unknown>
+#11 0x55bfd751af39 <unknown>
+#12 0x55bfd751de7d <unknown>
+#13 0x55bfd7503c81 <unknown>
+#14 0x55bfd751ea5b <unknown>
+#15 0x55bfd74eaa50 <unknown>
+#16 0x55bfd753faa8 <unknown>
+#17 0x55bfd753fc79 <unknown>
+#18 0x55bfd75514f3 <unknown>
+#19 0x7fc95d86db7b <unknown>
+
+2026-01-12 13:41:44,189 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 13:41:44,190 [INFO] mailer: Old editions fetched.
+2026-01-12 13:41:44,190 [INFO] mailer: Old editions fetched.
+2026-01-12 13:41:44,191 [INFO] mailer: Old editions fetched.
+2026-01-12 13:41:44,191 [INFO] mailer: HTML body built correctly.
+2026-01-12 13:41:44,200 [INFO] mailer: Email set up correctly.
+2026-01-12 13:41:45,692 [INFO] mailer: Email sent.
+2026-01-12 13:41:45,693 [INFO] mailer: All done!
+2026-01-12 15:02:19,532 [INFO] newsScraper: Selenium options set.
+2026-01-12 15:02:20,561 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 15:02:20,561 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 15:02:21,429 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 15:02:21,765 [INFO] maniScraper: Logged in.
+2026-01-12 15:02:30,287 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 15:02:44,910 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 15:02:44,911 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 15:02:44,919 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 15:02:44,919 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/to_all-12012026-a60eddaf3b5c488e0fe80b1e3c1b1aca.pdf'
+2026-01-12 15:02:45,022 [INFO] newsScraper: Selenium options set.
+2026-01-12 15:02:46,033 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 15:02:46,034 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 15:02:46,886 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 15:02:50,105 [INFO] repuScraper: Logged in.
+2026-01-12 15:02:59,814 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 15:03:12,655 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 15:03:22,358 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 15:03:36,042 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 15:03:36,043 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 15:03:36,047 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 15:03:36,156 [INFO] newsScraper: Selenium options set.
+2026-01-12 15:03:37,239 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 15:03:37,239 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 15:03:38,172 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 15:03:41,669 [INFO] stampaScraper: Logged in.
+2026-01-12 15:03:50,066 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 15:04:03,009 [INFO] stampaScraper: The PDF file is stable.
+2026-01-12 15:04:11,470 [INFO] stampaScraper: The PDF file has been compressed.
+2026-01-12 15:04:27,886 [INFO] stampaScraper: Pdf appended to the archive.
+2026-01-12 15:04:27,893 [INFO] stampaScraper: Pdf uploaded and deleted from folder.
+2026-01-12 15:04:27,986 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 15:04:27,986 [INFO] mailer: Old editions fetched.
+2026-01-12 15:04:27,987 [INFO] mailer: Old editions fetched.
+2026-01-12 15:04:27,987 [INFO] mailer: Old editions fetched.
+2026-01-12 15:04:27,987 [INFO] mailer: HTML body built correctly.
+2026-01-12 15:04:28,001 [INFO] mailer: Email set up correctly.
+2026-01-12 15:04:31,651 [INFO] mailer: Email sent.
+2026-01-12 15:04:31,651 [INFO] mailer: All done!
+2026-01-12 16:07:33,243 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:07:33,622 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 16:07:33,622 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 16:07:34,295 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 16:07:34,471 [INFO] maniScraper: Logged in.
+2026-01-12 16:07:43,138 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 16:07:54,230 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 16:07:54,230 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 16:07:54,231 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 16:07:54,231 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/il-manifesto-del-11-gennaio-2026.pdf'
+2026-01-12 16:07:54,302 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:07:54,802 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 16:07:54,802 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 16:07:55,537 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 16:07:58,674 [INFO] repuScraper: Logged in.
+2026-01-12 16:08:06,904 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 16:08:19,527 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 16:08:28,347 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 16:08:41,959 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 16:08:41,959 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 16:08:41,962 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 16:08:42,038 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:08:42,411 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 16:08:42,411 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 16:08:43,072 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 16:08:46,217 [INFO] stampaScraper: Logged in.
+2026-01-12 16:08:57,007 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 16:09:09,632 [INFO] stampaScraper: The PDF file is stable.
+2026-01-12 16:09:17,260 [INFO] stampaScraper: The PDF file has been compressed.
+2026-01-12 16:09:32,319 [INFO] stampaScraper: Pdf appended to the archive.
+2026-01-12 16:09:32,324 [INFO] stampaScraper: Pdf uploaded and deleted from folder.
+2026-01-12 16:09:32,396 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 16:09:32,396 [INFO] mailer: Old editions fetched.
+2026-01-12 16:09:32,396 [INFO] mailer: Old editions fetched.
+2026-01-12 16:09:32,396 [INFO] mailer: Old editions fetched.
+2026-01-12 16:09:32,396 [INFO] mailer: HTML body built correctly.
+2026-01-12 16:09:32,400 [INFO] mailer: Email set up correctly.
+2026-01-12 16:09:33,754 [INFO] mailer: Email sent.
+2026-01-12 16:09:33,754 [INFO] mailer: All done!
+2026-01-12 16:11:46,676 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:11:47,093 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 16:11:47,093 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026
+2026-01-12 16:11:49,156 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 16:11:49,329 [INFO] maniScraper: Logged in.
+2026-01-12 16:11:58,047 [INFO] maniScraper: The PDF file is stable.
+2026-01-12 16:12:10,564 [INFO] maniScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 16:12:10,565 [INFO] maniScraper: Pdf appended to the archive.
+2026-01-12 16:12:10,565 [INFO] maniScraper: Pdf uploaded and deleted from folder.
+2026-01-12 16:12:10,566 [ERROR] maniScraper: [Errno 2] No such file or directory: '/home/fc/Progetti/manifesto/downloads/il-manifesto-del-11-gennaio-2026.pdf'
+2026-01-12 16:12:10,637 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:12:11,009 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 16:12:11,009 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 16:12:11,742 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 16:12:14,914 [INFO] repuScraper: Logged in.
+2026-01-12 16:12:22,711 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 16:12:35,330 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 16:12:44,488 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 16:12:58,237 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 16:12:58,237 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 16:12:58,241 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 16:12:58,320 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:12:58,832 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 16:12:58,833 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362
+2026-01-12 16:12:59,464 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 16:13:02,607 [INFO] stampaScraper: Logged in.
+2026-01-12 16:13:11,838 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 16:13:12,892 [ERROR] stampaScraper: Message: element click intercepted: Element <button id="extra-content" class="premium-button column-9" value="submit" type="submit" onclick="downloadPdf()">...</button> is not clickable at point (385, 716). Other element would receive the click: <div class="iubenda-cs-rationale">...</div>
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x55e95892919a <unknown>
+#1 0x55e9583a6c4b <unknown>
+#2 0x55e9583ff084 <unknown>
+#3 0x55e9583fcf48 <unknown>
+#4 0x55e9583fa66a <unknown>
+#5 0x55e9583f97b9 <unknown>
+#6 0x55e9583ecad2 <unknown>
+#7 0x55e9583ec477 <unknown>
+#8 0x55e958443bee <unknown>
+#9 0x55e9583eac42 <unknown>
+#10 0x55e9583eb8f1 <unknown>
+#11 0x55e9588f1f39 <unknown>
+#12 0x55e9588f4e7d <unknown>
+#13 0x55e9588dac81 <unknown>
+#14 0x55e9588f5a5b <unknown>
+#15 0x55e9588c1a50 <unknown>
+#16 0x55e958916aa8 <unknown>
+#17 0x55e958916c79 <unknown>
+#18 0x55e9589284f3 <unknown>
+#19 0x7f5d551c2b7b <unknown>
+
+2026-01-12 16:13:12,955 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 16:13:12,955 [INFO] mailer: Old editions fetched.
+2026-01-12 16:13:12,955 [INFO] mailer: Old editions fetched.
+2026-01-12 16:13:12,955 [INFO] mailer: Old editions fetched.
+2026-01-12 16:13:12,955 [INFO] mailer: HTML body built correctly.
+2026-01-12 16:13:12,959 [INFO] mailer: Email set up correctly.
+2026-01-12 16:13:13,969 [INFO] mailer: Email sent.
+2026-01-12 16:13:13,969 [INFO] mailer: All done!
+2026-01-12 16:51:35,616 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:51:35,993 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 16:51:35,993 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 16:51:36,724 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 16:51:36,901 [INFO] maniScraper: Logged in.
+2026-01-12 16:53:42,182 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 16:53:42,203 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:53:42,591 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 16:53:42,591 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362.errore
+2026-01-12 16:53:43,356 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 16:53:46,492 [INFO] repuScraper: Logged in.
+2026-01-12 16:53:54,428 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 16:54:07,074 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 16:54:16,246 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 16:54:29,381 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 16:54:29,381 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 16:54:29,383 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 16:54:29,459 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:54:29,895 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 16:54:29,895 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 16:54:30,586 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 16:54:33,727 [INFO] stampaScraper: Logged in.
+2026-01-12 16:54:43,392 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 16:54:44,455 [ERROR] stampaScraper: Message: element click intercepted: Element <button id="extra-content" class="premium-button column-9" value="submit" type="submit" onclick="downloadPdf()">...</button> is not clickable at point (385, 716). Other element would receive the click: <div class="iubenda-cs-rationale">...</div>
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+#0 0x5610682ac19a <unknown>
+#1 0x561067d29c4b <unknown>
+#2 0x561067d82084 <unknown>
+#3 0x561067d7ff48 <unknown>
+#4 0x561067d7d66a <unknown>
+#5 0x561067d7c7b9 <unknown>
+#6 0x561067d6fad2 <unknown>
+#7 0x561067d6f477 <unknown>
+#8 0x561067dc6bee <unknown>
+#9 0x561067d6dc42 <unknown>
+#10 0x561067d6e8f1 <unknown>
+#11 0x561068274f39 <unknown>
+#12 0x561068277e7d <unknown>
+#13 0x56106825dc81 <unknown>
+#14 0x561068278a5b <unknown>
+#15 0x561068244a50 <unknown>
+#16 0x561068299aa8 <unknown>
+#17 0x561068299c79 <unknown>
+#18 0x5610682ab4f3 <unknown>
+#19 0x7f6e87bfbb7b <unknown>
+
+2026-01-12 16:54:44,516 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 16:54:44,516 [INFO] mailer: Old editions fetched.
+2026-01-12 16:54:44,516 [INFO] mailer: Old editions fetched.
+2026-01-12 16:54:44,517 [INFO] mailer: Old editions fetched.
+2026-01-12 16:54:44,517 [INFO] mailer: HTML body built correctly.
+2026-01-12 16:54:44,521 [INFO] mailer: Email set up correctly.
+2026-01-12 16:54:46,637 [INFO] mailer: Email sent.
+2026-01-12 16:54:46,637 [INFO] mailer: All done!
+2026-01-12 16:58:44,082 [INFO] newsScraper: Selenium options set.
+2026-01-12 16:58:44,454 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 16:58:44,454 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 16:58:45,116 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 16:58:45,298 [INFO] maniScraper: Logged in.
+2026-01-12 17:00:50,548 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 17:00:50,620 [INFO] newsScraper: Selenium options set.
+2026-01-12 17:00:51,056 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 17:00:51,056 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362.errore
+2026-01-12 17:00:51,717 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 17:00:54,849 [INFO] repuScraper: Logged in.
+2026-01-12 17:01:02,703 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 17:01:17,438 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 17:01:26,241 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 17:01:39,863 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 17:01:39,864 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 17:01:39,867 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 17:01:39,943 [INFO] newsScraper: Selenium options set.
+2026-01-12 17:01:40,337 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 17:01:40,337 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 17:01:41,133 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 17:01:44,277 [INFO] stampaScraper: Logged in.
+2026-01-12 17:01:52,279 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 17:02:06,956 [INFO] stampaScraper: The PDF file is stable.
+2026-01-12 17:02:14,562 [INFO] stampaScraper: The PDF file has been compressed.
+2026-01-12 17:02:30,872 [INFO] stampaScraper: Pdf appended to the archive.
+2026-01-12 17:02:30,877 [INFO] stampaScraper: Pdf uploaded and deleted from folder.
+2026-01-12 17:02:30,947 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 17:02:30,947 [INFO] mailer: Old editions fetched.
+2026-01-12 17:02:30,947 [INFO] mailer: Old editions fetched.
+2026-01-12 17:02:30,948 [INFO] mailer: Old editions fetched.
+2026-01-12 17:02:30,948 [INFO] mailer: HTML body built correctly.
+2026-01-12 17:02:30,952 [INFO] mailer: Email set up correctly.
+2026-01-12 17:02:32,680 [INFO] mailer: Email sent.
+2026-01-12 17:02:32,680 [INFO] mailer: All done!
+2026-01-12 17:55:19,273 [INFO] newsScraper: Selenium options set.
+2026-01-12 17:55:19,701 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 17:55:19,701 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 17:55:20,434 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 17:55:20,615 [INFO] maniScraper: Logged in.
+2026-01-12 17:57:25,886 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 17:57:25,959 [INFO] newsScraper: Selenium options set.
+2026-01-12 17:57:26,370 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 17:57:26,370 [INFO] repuScraper: Download link:
+https://marche.medialibra[ERRORE]ry.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 17:57:27,090 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 17:57:30,226 [INFO] repuScraper: Logged in.
+2026-01-12 17:57:35,239 [ERROR] repuScraper: Message: invalid argument
+  (Session info: chrome=143.0.7499.169)
+Stacktrace:
+#0 0x563728e7c19a <unknown>
+#1 0x5637288f9a78 <unknown>
+#2 0x5637288e1404 <unknown>
+#3 0x5637288dfa5a <unknown>
+#4 0x5637288e0070 <unknown>
+#5 0x5637288fd38f <unknown>
+#6 0x56372899782b <unknown>
+#7 0x563728996bee <unknown>
+#8 0x56372893dc42 <unknown>
+#9 0x56372893e8f1 <unknown>
+#10 0x563728e44f39 <unknown>
+#11 0x563728e47e7d <unknown>
+#12 0x563728e2dc81 <unknown>
+#13 0x563728e48a5b <unknown>
+#14 0x563728e14a50 <unknown>
+#15 0x563728e69aa8 <unknown>
+#16 0x563728e69c79 <unknown>
+#17 0x563728e7b4f3 <unknown>
+#18 0x7f11c2797b7b <unknown>
+
+2026-01-12 17:57:35,303 [INFO] newsScraper: Selenium options set.
+2026-01-12 17:57:35,700 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 17:57:35,700 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/Repu[ERRORE]bblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 17:57:36,373 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 17:57:39,516 [INFO] stampaScraper: Logged in.
+2026-01-12 17:57:49,833 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 17:57:54,990 [ERROR] stampaScraper: Message: 
+Stacktrace:
+#0 0x55a56fecd19a <unknown>
+#1 0x55a56f94ac4b <unknown>
+#2 0x55a56f99c318 <unknown>
+#3 0x55a56f99c551 <unknown>
+#4 0x55a56f9ea764 <unknown>
+#5 0x55a56f9e7bee <unknown>
+#6 0x55a56f98ec42 <unknown>
+#7 0x55a56f98f8f1 <unknown>
+#8 0x55a56fe95f39 <unknown>
+#9 0x55a56fe98e7d <unknown>
+#10 0x55a56fe7ec81 <unknown>
+#11 0x55a56fe99a5b <unknown>
+#12 0x55a56fe65a50 <unknown>
+#13 0x55a56febaaa8 <unknown>
+#14 0x55a56febac79 <unknown>
+#15 0x55a56fecc4f3 <unknown>
+#16 0x7f62e3a45b7b <unknown>
+
+2026-01-12 17:57:55,052 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 17:57:55,052 [INFO] mailer: Old editions fetched.
+2026-01-12 17:57:55,052 [INFO] mailer: Old editions fetched.
+2026-01-12 17:57:55,052 [INFO] mailer: Old editions fetched.
+2026-01-12 17:57:55,052 [INFO] mailer: HTML body built correctly.
+2026-01-12 17:57:55,055 [INFO] mailer: Email set up correctly.
+2026-01-12 17:57:56,202 [INFO] mailer: Email sent.
+2026-01-12 17:57:56,203 [INFO] mailer: All done!
+2026-01-12 17:59:52,885 [INFO] newsScraper: Selenium options set.
+2026-01-12 17:59:53,296 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 17:59:53,296 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 17:59:53,912 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 17:59:54,098 [INFO] maniScraper: Logged in.
+2026-01-12 18:01:59,369 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 18:01:59,442 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:01:59,826 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 18:01:59,826 [INFO] repuScraper: Download link:
+https://marche.medialibra[ERRORE]ry.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 18:02:00,698 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 18:02:03,844 [INFO] repuScraper: Logged in.
+2026-01-12 18:02:08,855 [ERROR] repuScraper: Message: invalid argument
+  (Session info: chrome=143.0.7499.169)
+Stacktrace:
+#0 0x55f3d2fb319a <unknown>
+#1 0x55f3d2a30a78 <unknown>
+#2 0x55f3d2a18404 <unknown>
+#3 0x55f3d2a16a5a <unknown>
+#4 0x55f3d2a17070 <unknown>
+#5 0x55f3d2a3438f <unknown>
+#6 0x55f3d2ace82b <unknown>
+#7 0x55f3d2acdbee <unknown>
+#8 0x55f3d2a74c42 <unknown>
+#9 0x55f3d2a758f1 <unknown>
+#10 0x55f3d2f7bf39 <unknown>
+#11 0x55f3d2f7ee7d <unknown>
+#12 0x55f3d2f64c81 <unknown>
+#13 0x55f3d2f7fa5b <unknown>
+#14 0x55f3d2f4ba50 <unknown>
+#15 0x55f3d2fa0aa8 <unknown>
+#16 0x55f3d2fa0c79 <unknown>
+#17 0x55f3d2fb24f3 <unknown>
+#18 0x7f6a555d1b7b <unknown>
+
+2026-01-12 18:02:08,917 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:02:09,327 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 18:02:09,327 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/Repu[ERRORE]bblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 18:02:10,070 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 18:02:13,205 [INFO] stampaScraper: Logged in.
+2026-01-12 18:02:23,513 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 18:02:28,672 [ERROR] stampaScraper: Message: 
+Stacktrace:
+#0 0x5598834bf19a <unknown>
+#1 0x559882f3cc4b <unknown>
+#2 0x559882f8e318 <unknown>
+#3 0x559882f8e551 <unknown>
+#4 0x559882fdc764 <unknown>
+#5 0x559882fd9bee <unknown>
+#6 0x559882f80c42 <unknown>
+#7 0x559882f818f1 <unknown>
+#8 0x559883487f39 <unknown>
+#9 0x55988348ae7d <unknown>
+#10 0x559883470c81 <unknown>
+#11 0x55988348ba5b <unknown>
+#12 0x559883457a50 <unknown>
+#13 0x5598834acaa8 <unknown>
+#14 0x5598834acc79 <unknown>
+#15 0x5598834be4f3 <unknown>
+#16 0x7fd5eb566b7b <unknown>
+
+2026-01-12 18:02:28,733 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 18:02:28,733 [INFO] mailer: Old editions fetched.
+2026-01-12 18:02:28,733 [INFO] mailer: Old editions fetched.
+2026-01-12 18:02:28,733 [INFO] mailer: Old editions fetched.
+2026-01-12 18:02:28,733 [INFO] mailer: HTML body built correctly.
+2026-01-12 18:02:28,738 [INFO] mailer: Email set up correctly.
+2026-01-12 18:02:29,711 [INFO] mailer: Email sent.
+2026-01-12 18:02:29,711 [INFO] mailer: All done!
+2026-01-12 18:06:58,206 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:06:58,597 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 18:06:58,597 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 18:06:59,688 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 18:06:59,861 [INFO] maniScraper: Logged in.
+2026-01-12 18:09:05,102 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 18:09:05,178 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:09:05,691 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 18:09:05,691 [INFO] repuScraper: Download link:
+https://marche.medialibra[ERRORE]ry.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 18:09:06,804 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 18:09:09,933 [INFO] repuScraper: Logged in.
+2026-01-12 18:09:14,944 [ERROR] repuScraper: Message: invalid argument
+  (Session info: chrome=143.0.7499.169)
+Stacktrace:
+#0 0x56254f48f19a <unknown>
+#1 0x56254ef0ca78 <unknown>
+#2 0x56254eef4404 <unknown>
+#3 0x56254eef2a5a <unknown>
+#4 0x56254eef3070 <unknown>
+#5 0x56254ef1038f <unknown>
+#6 0x56254efaa82b <unknown>
+#7 0x56254efa9bee <unknown>
+#8 0x56254ef50c42 <unknown>
+#9 0x56254ef518f1 <unknown>
+#10 0x56254f457f39 <unknown>
+#11 0x56254f45ae7d <unknown>
+#12 0x56254f440c81 <unknown>
+#13 0x56254f45ba5b <unknown>
+#14 0x56254f427a50 <unknown>
+#15 0x56254f47caa8 <unknown>
+#16 0x56254f47cc79 <unknown>
+#17 0x56254f48e4f3 <unknown>
+#18 0x7f0f24094b7b <unknown>
+
+2026-01-12 18:11:14,976 [WARNING] repuScraper: Unable to download the pdf.
+2026-01-12 18:11:15,039 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:11:15,485 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 18:11:15,485 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/Repu[ERRORE]bblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 18:11:16,179 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 18:11:19,314 [INFO] stampaScraper: Logged in.
+2026-01-12 18:11:29,615 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 18:11:34,760 [ERROR] stampaScraper: Message: 
+Stacktrace:
+#0 0x5610db2d619a <unknown>
+#1 0x5610dad53c4b <unknown>
+#2 0x5610dada5318 <unknown>
+#3 0x5610dada5551 <unknown>
+#4 0x5610dadf3764 <unknown>
+#5 0x5610dadf0bee <unknown>
+#6 0x5610dad97c42 <unknown>
+#7 0x5610dad988f1 <unknown>
+#8 0x5610db29ef39 <unknown>
+#9 0x5610db2a1e7d <unknown>
+#10 0x5610db287c81 <unknown>
+#11 0x5610db2a2a5b <unknown>
+#12 0x5610db26ea50 <unknown>
+#13 0x5610db2c3aa8 <unknown>
+#14 0x5610db2c3c79 <unknown>
+#15 0x5610db2d54f3 <unknown>
+#16 0x7f48fc921b7b <unknown>
+
+2026-01-12 18:13:34,791 [WARNING] stampaScraper: Unable to download the pdf.
+2026-01-12 18:13:34,863 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 18:13:34,863 [INFO] mailer: Old editions fetched.
+2026-01-12 18:13:34,863 [INFO] mailer: Old editions fetched.
+2026-01-12 18:13:34,864 [INFO] mailer: Old editions fetched.
+2026-01-12 18:13:34,864 [INFO] mailer: HTML body built correctly.
+2026-01-12 18:13:34,867 [INFO] mailer: Email set up correctly.
+2026-01-12 18:13:36,850 [INFO] mailer: Email sent.
+2026-01-12 18:13:36,851 [INFO] mailer: All done!
+2026-01-12 18:28:01,859 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:28:02,272 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 18:28:02,272 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 18:28:02,990 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 18:28:03,166 [INFO] maniScraper: Logged in.
+2026-01-12 18:30:08,359 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 18:30:08,433 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:30:08,927 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 18:30:08,927 [INFO] repuScraper: Download link:
+https://marche.medialibra[ERRORE]ry.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 18:30:09,650 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 18:30:12,784 [INFO] repuScraper: Logged in.
+2026-01-12 18:30:17,795 [ERROR] repuScraper: Message: invalid argument
+  (Session info: chrome=143.0.7499.169)
+Stacktrace:
+#0 0x564fc079819a <unknown>
+#1 0x564fc0215a78 <unknown>
+#2 0x564fc01fd404 <unknown>
+#3 0x564fc01fba5a <unknown>
+#4 0x564fc01fc070 <unknown>
+#5 0x564fc021938f <unknown>
+#6 0x564fc02b382b <unknown>
+#7 0x564fc02b2bee <unknown>
+#8 0x564fc0259c42 <unknown>
+#9 0x564fc025a8f1 <unknown>
+#10 0x564fc0760f39 <unknown>
+#11 0x564fc0763e7d <unknown>
+#12 0x564fc0749c81 <unknown>
+#13 0x564fc0764a5b <unknown>
+#14 0x564fc0730a50 <unknown>
+#15 0x564fc0785aa8 <unknown>
+#16 0x564fc0785c79 <unknown>
+#17 0x564fc07974f3 <unknown>
+#18 0x7f46c1af9b7b <unknown>
+
+2026-01-12 18:32:17,823 [WARNING] repuScraper: Unable to download the pdf.
+2026-01-12 18:32:17,888 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:32:18,322 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 18:32:18,322 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/Repu[ERRORE]bblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 18:32:19,017 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 18:32:22,160 [INFO] stampaScraper: Logged in.
+2026-01-12 18:32:32,442 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 18:32:37,580 [ERROR] stampaScraper: Message: 
+Stacktrace:
+#0 0x55db31e3819a <unknown>
+#1 0x55db318b5c4b <unknown>
+#2 0x55db31907318 <unknown>
+#3 0x55db31907551 <unknown>
+#4 0x55db31955764 <unknown>
+#5 0x55db31952bee <unknown>
+#6 0x55db318f9c42 <unknown>
+#7 0x55db318fa8f1 <unknown>
+#8 0x55db31e00f39 <unknown>
+#9 0x55db31e03e7d <unknown>
+#10 0x55db31de9c81 <unknown>
+#11 0x55db31e04a5b <unknown>
+#12 0x55db31dd0a50 <unknown>
+#13 0x55db31e25aa8 <unknown>
+#14 0x55db31e25c79 <unknown>
+#15 0x55db31e374f3 <unknown>
+#16 0x7f6de38dbb7b <unknown>
+
+2026-01-12 18:34:37,604 [WARNING] stampaScraper: Unable to download the pdf.
+2026-01-12 18:34:37,670 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 18:40:58,215 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:40:58,707 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 18:40:58,707 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 18:40:59,264 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 18:40:59,445 [INFO] maniScraper: Logged in.
+2026-01-12 18:43:04,709 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 18:43:04,781 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:43:05,267 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 18:43:05,267 [INFO] repuScraper: Download link:
+https://marche.medialibra[ERRORE]ry.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 18:43:05,926 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 18:43:09,267 [INFO] repuScraper: Logged in.
+2026-01-12 18:43:14,279 [ERROR] repuScraper: Message: invalid argument
+  (Session info: chrome=143.0.7499.169)
+Stacktrace:
+#0 0x55b52c3d819a <unknown>
+#1 0x55b52be55a78 <unknown>
+#2 0x55b52be3d404 <unknown>
+#3 0x55b52be3ba5a <unknown>
+#4 0x55b52be3c070 <unknown>
+#5 0x55b52be5938f <unknown>
+#6 0x55b52bef382b <unknown>
+#7 0x55b52bef2bee <unknown>
+#8 0x55b52be99c42 <unknown>
+#9 0x55b52be9a8f1 <unknown>
+#10 0x55b52c3a0f39 <unknown>
+#11 0x55b52c3a3e7d <unknown>
+#12 0x55b52c389c81 <unknown>
+#13 0x55b52c3a4a5b <unknown>
+#14 0x55b52c370a50 <unknown>
+#15 0x55b52c3c5aa8 <unknown>
+#16 0x55b52c3c5c79 <unknown>
+#17 0x55b52c3d74f3 <unknown>
+#18 0x7fa73c2e6b7b <unknown>
+
+2026-01-12 18:45:14,308 [WARNING] repuScraper: Unable to download the pdf.
+2026-01-12 18:45:14,371 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:45:14,811 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 18:45:14,811 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/Repu[ERRORE]bblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 18:45:15,519 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 18:45:18,658 [INFO] stampaScraper: Logged in.
+2026-01-12 18:45:28,966 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 18:45:34,119 [ERROR] stampaScraper: Message: 
+Stacktrace:
+#0 0x562e88e5219a <unknown>
+#1 0x562e888cfc4b <unknown>
+#2 0x562e88921318 <unknown>
+#3 0x562e88921551 <unknown>
+#4 0x562e8896f764 <unknown>
+#5 0x562e8896cbee <unknown>
+#6 0x562e88913c42 <unknown>
+#7 0x562e889148f1 <unknown>
+#8 0x562e88e1af39 <unknown>
+#9 0x562e88e1de7d <unknown>
+#10 0x562e88e03c81 <unknown>
+#11 0x562e88e1ea5b <unknown>
+#12 0x562e88deaa50 <unknown>
+#13 0x562e88e3faa8 <unknown>
+#14 0x562e88e3fc79 <unknown>
+#15 0x562e88e514f3 <unknown>
+#16 0x7f96d1670b7b <unknown>
+
+2026-01-12 18:47:34,156 [WARNING] stampaScraper: Unable to download the pdf.
+2026-01-12 18:47:34,219 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 18:48:33,613 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:48:34,006 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 18:48:34,006 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 18:48:34,830 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 18:48:35,012 [INFO] maniScraper: Logged in.
+2026-01-12 18:50:40,259 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 18:50:40,332 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:50:40,746 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 18:50:40,746 [INFO] repuScraper: Download link:
+https://marche.medialibra[ERRORE]ry.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 18:50:41,533 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 18:50:44,672 [INFO] repuScraper: Logged in.
+2026-01-12 18:50:49,682 [ERROR] repuScraper: Message: invalid argument
+  (Session info: chrome=143.0.7499.169)
+Stacktrace:
+#0 0x55bb7c54419a <unknown>
+#1 0x55bb7bfc1a78 <unknown>
+#2 0x55bb7bfa9404 <unknown>
+#3 0x55bb7bfa7a5a <unknown>
+#4 0x55bb7bfa8070 <unknown>
+#5 0x55bb7bfc538f <unknown>
+#6 0x55bb7c05f82b <unknown>
+#7 0x55bb7c05ebee <unknown>
+#8 0x55bb7c005c42 <unknown>
+#9 0x55bb7c0068f1 <unknown>
+#10 0x55bb7c50cf39 <unknown>
+#11 0x55bb7c50fe7d <unknown>
+#12 0x55bb7c4f5c81 <unknown>
+#13 0x55bb7c510a5b <unknown>
+#14 0x55bb7c4dca50 <unknown>
+#15 0x55bb7c531aa8 <unknown>
+#16 0x55bb7c531c79 <unknown>
+#17 0x55bb7c5434f3 <unknown>
+#18 0x7fc970de9b7b <unknown>
+
+2026-01-12 18:52:49,720 [WARNING] repuScraper: Unable to download the pdf.
+2026-01-12 18:52:49,784 [INFO] newsScraper: Selenium options set.
+2026-01-12 18:52:50,290 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 18:52:50,290 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/Repu[ERRORE]bblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 18:52:50,914 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 18:52:54,052 [INFO] stampaScraper: Logged in.
+2026-01-12 18:53:04,502 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 18:53:09,639 [ERROR] stampaScraper: Message: 
+Stacktrace:
+#0 0x55744e54819a <unknown>
+#1 0x55744dfc5c4b <unknown>
+#2 0x55744e017318 <unknown>
+#3 0x55744e017551 <unknown>
+#4 0x55744e065764 <unknown>
+#5 0x55744e062bee <unknown>
+#6 0x55744e009c42 <unknown>
+#7 0x55744e00a8f1 <unknown>
+#8 0x55744e510f39 <unknown>
+#9 0x55744e513e7d <unknown>
+#10 0x55744e4f9c81 <unknown>
+#11 0x55744e514a5b <unknown>
+#12 0x55744e4e0a50 <unknown>
+#13 0x55744e535aa8 <unknown>
+#14 0x55744e535c79 <unknown>
+#15 0x55744e5474f3 <unknown>
+#16 0x7f7eeac7db7b <unknown>
+
+2026-01-12 18:55:09,678 [WARNING] stampaScraper: Unable to download the pdf.
+2026-01-12 18:55:09,744 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 18:55:11,220 [INFO] mailer: Email sent.
+2026-01-12 21:46:52,369 [INFO] newsScraper: Selenium options set.
+2026-01-12 21:46:53,359 [INFO] maniScraper: Downloading il manifesto...
+2026-01-12 21:46:53,359 [INFO] maniScraper: Download link:
+https://ilmanifesto.it/api/download/pdf/il-manifesto-del-11-gennaio-2026.errore
+2026-01-12 21:46:54,133 [INFO] maniScraper: Cookie banner dismissed.
+2026-01-12 21:46:54,375 [INFO] maniScraper: Logged in.
+2026-01-12 21:48:59,787 [WARNING] maniScraper: Unable to download the pdf.
+2026-01-12 21:48:59,880 [INFO] newsScraper: Selenium options set.
+2026-01-12 21:49:00,688 [INFO] repuScraper: Downloading La Repubblica...
+2026-01-12 21:49:00,688 [INFO] repuScraper: Download link:
+https://marche.medialibrary.it/custom/RepubblicaNew.aspx?t=MLR&idmloluser=380362
+2026-01-12 21:49:02,009 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 21:49:05,260 [INFO] repuScraper: Logged in.
+2026-01-12 21:49:14,095 [INFO] repuScraper: Cookie banner dismissed.
+2026-01-12 21:49:28,950 [INFO] repuScraper: The PDF file is stable.
+2026-01-12 21:49:38,601 [INFO] repuScraper: The PDF file has been compressed.
+2026-01-12 21:49:56,060 [INFO] repuScraper: The archive includes more than seven editions. The last one has been deleted.
+2026-01-12 21:49:56,060 [INFO] repuScraper: Pdf appended to the archive.
+2026-01-12 21:49:56,065 [INFO] repuScraper: Pdf uploaded and deleted from folder.
+2026-01-12 21:49:56,170 [INFO] newsScraper: Selenium options set.
+2026-01-12 21:49:57,176 [INFO] stampaScraper: Downloading La Stampa...
+2026-01-12 21:49:57,177 [INFO] stampaScraper: Download link:
+https://marche.medialibrary.it/custom/Repu[ERRORE]bblicaNew.aspx?t=MLL&idmloluser=380362.errore
+2026-01-12 21:49:58,120 [INFO] stampaScraper: Cookie banner dismissed.
+2026-01-12 21:50:01,380 [INFO] stampaScraper: Logged in.
+2026-01-12 21:50:11,811 [INFO] stampaScraper: No cookie banner found.
+2026-01-12 21:50:17,000 [ERROR] stampaScraper: Message: 
+Stacktrace:
+#0 0x563c768fd19a <unknown>
+#1 0x563c7637ac4b <unknown>
+#2 0x563c763cc318 <unknown>
+#3 0x563c763cc551 <unknown>
+#4 0x563c7641a764 <unknown>
+#5 0x563c76417bee <unknown>
+#6 0x563c763bec42 <unknown>
+#7 0x563c763bf8f1 <unknown>
+#8 0x563c768c5f39 <unknown>
+#9 0x563c768c8e7d <unknown>
+#10 0x563c768aec81 <unknown>
+#11 0x563c768c9a5b <unknown>
+#12 0x563c76895a50 <unknown>
+#13 0x563c768eaaa8 <unknown>
+#14 0x563c768eac79 <unknown>
+#15 0x563c768fc4f3 <unknown>
+#16 0x7f41a89bdb7b <unknown>
+
+2026-01-12 21:52:17,042 [WARNING] stampaScraper: Unable to download the pdf.
+2026-01-12 21:52:17,117 [INFO] mailer: Mailing data fetched correctly.
+2026-01-12 21:52:17,117 [INFO] mailer: Old editions fetched.
+2026-01-12 21:52:17,117 [INFO] mailer: Old editions fetched.
+2026-01-12 21:52:17,118 [INFO] mailer: Old editions fetched.
+2026-01-12 21:52:17,118 [INFO] mailer: HTML body built correctly.
+2026-01-12 21:52:17,126 [INFO] mailer: Email set up correctly.
+2026-01-12 21:52:20,161 [INFO] mailer: Email sent.
+2026-01-12 21:52:20,162 [INFO] mailer: All done!
