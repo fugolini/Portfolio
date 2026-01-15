@@ -4,19 +4,20 @@ A simple yet powerful news scraper
 
 ## Overview
 
-A scraper that logs into the website of a well-known Italian newspaper, downloads the daily edition in PDF format, uploads it to an upload service, and finally emails it to a list of recipients through my personal gmail. The email will also include the download links to the last six editions. 
-The credentials (gmail token, newspaper website password and emails) are securely Fernet-encrypted and stored in a .creds file. The encryption key is stored separately. The address book is in json format, and so is the archive of editions.
-For robustness, the program preserves a timestamped log. Should anything fail, the log is sent to the sender of the email (my personal email).  
-NOTE: A subscription is needed to download the newspaper.
+A scraper that logs into the website of some well-known Italian newspapers, downloads the daily editions in PDF format, uploads them to an upload service, and emails them to a list of recipients through a configured SMTP service.  
+All credentials are securely Fernet-encrypted and stored in a .creds file; the encryption key is stored separately. 
+For robustness, the program preserves a timestamped log.   
+NOTE: A subscription is needed to download the newspapers.
 
 ## Goals of the project: 
 1. Sinking my teeth into more structured and advanced Python.
-2. The sheer intellectual challenge of it.
-3. The fun that comes with automating otherwise tedious tasks.
-4. Having my Raspberry Pi send me the newspaper every morning.
+2. Automating otherwise tedious tasks.
+3. Having my Raspberry Pi send me the newspaper every morning. It saves me 20 minutes a day!
 
 ## Key features
 - Fast and safe encryption
+- Up to ~60% PDF compression
+- Robust exception handling
 - An archive of editions updated daily
 - Very easily extendable
 - A command line interface which provides test runs and easy manipulation of the address book.  
@@ -24,20 +25,20 @@ NOTE: A subscription is needed to download the newspaper.
 
 ## Technologies
 - Python3, pure and simple
-- Core libraries: Selenium, Fernet, TFLink
-- Standard libraries: os, datetime, smtplib, argparse, pathlib, locale
+- Core libraries: Selenium, Fernet, TFLink, Ghostscript
+- Standard libraries: os, time, datetime, smtplib, argparse, pathlib, locale, logging
 
 ## Structure
 - main.py
-- NewsScraper.py --> the class that does the scraping
-- Mailer class --> the class that emails the result
-- utils.py --> tangential but usual functions that do not fit any of the classes above
+- NewsScraper.py --> the parent scraper class
+- paperOneScraper,paperTwoScraper, paperThreeScraper --> children classes (each website has different login and download methods)
+- Mailer class --> the class that emails the editions
+- utils.py --> generic-use functions shared between functions
 
 ## Setup
 I have installed it on crontab on my Raspberry Pi:
   
-30 23 * * 2-7 /path/to/venv/bin/python3 /path/to/script/main.py >> /path/to/log/cronlog.log 2>&1  
-(There's no newspaper on Mondays)  
+0 5 * * * /path/to/venv/bin/python3 /path/to/script/main.py >> /path/to/log/cronlog.log 2>&1  
   
 NOTE: If you decide to install the crontab make sure to use absolute paths in the script!      
   
