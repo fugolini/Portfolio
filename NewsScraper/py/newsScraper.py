@@ -61,13 +61,12 @@ class NewsScraper:
                 download_path = self._wait_for_download()
                 if download_path:
                     compressed_pdf = self._compress_pdf(download_path)
-                    path_obj = Path(download_path)
-                    self.upload_data = self._upload_pdf(self.paper_name, compressed_pdf)
-                    if self.upload_data:
-                        path_obj.unlink()
+                    self.upload_link = self._upload_pdf(self.paper_name, compressed_pdf)
+                    # Delete all files after uploading
+                    self._clear_folder()
+                    if self.upload_link:
                         return True 
                     else:
-                        path_obj.unlink()
                         return False
                 else:
                     self.log.warning("Unable to download the pdf.")
@@ -121,7 +120,7 @@ class NewsScraper:
         """Set the options for selenium"""
         # Chrome options
         opts = Options()
-        #opts.add_argument("-headless")  # remove to debug visually
+        # opts.add_argument("-headless")  # remove to debug visually
 
         # Use Service to specify chromedriver path
         service = Service("/usr/local/bin/chromedriver")
@@ -153,6 +152,27 @@ class NewsScraper:
         except Exception as e:
             self.log.error(e)
 
+    def _click(self, element):
+        """Safe, headless click"""
+        try:
+            self.driver.execute_script(
+                    "arguments[0].scrollIntoView({block: 'center'});", element
+                    )
+
+            time.sleep(1)
+            self.driver.execute_script("arguments[0].click();", element)
+
+        except Exception as e:
+            self.log.error(f"Click failed: {e}")
+            raise
+
+    def _clear_folder(self):
+            """Clear the download folder"""
+
+            for file in self.DOWNLOAD_FOLDER.iterdir():
+                if file.is_file():
+                    file.unlink()
+
     def _upload_pdf(self, paper_name, download_path):
         """ 
         Upload the attachment to tmpfile.link and returns the link 
@@ -166,14 +186,13 @@ class NewsScraper:
             # Upload the file as (e.g.) news_paper_name_04-12-45. Return the download link.
             upload_file = tflink_client.upload(
                     str(path_obj), 
-                    filename=f"{paper_name}_{utils.italian_date(formatter='_')}.pdf"
+                    filename=f"{paper_name}_{self.date}.pdf"
                     )
             time.sleep(10)
 
             self._append_to_archive(self.ARCHIVE_PATH, upload_file.download_link)
             
             # Delete the file
-            path_obj.unlink()
             self.log.info("Pdf uploaded and deleted from folder.")
 
             return upload_file.download_link

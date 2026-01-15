@@ -43,7 +43,7 @@ class PaperTwoScraper(NewsScraper):
             download_button = WebDriverWait(self.driver, 5).until(
                     EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Scarica pdf')]"))
                     )
-            download_button.click()
+            self._click(download_button)
             time.sleep(10)
 
         except Exception as e:
