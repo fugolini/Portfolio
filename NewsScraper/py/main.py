@@ -5,9 +5,9 @@ from pathlib import Path
 
 import utils
 from mailer import Mailer
-from paperOneScraper import PaperOneScraperScraper
-from paperTwoScraper import PaperTwoScraperScraper
-from paperThreeScraper import PaperThreeScrapereScraper
+from paperOneScraper import PaperOneScraper
+from paperTwoScraper import PaperTwoScraper
+from paperThreeScraper import PaperThreeScraper
 
 
 PROJECT_ROOT = Path('/path/to/project/')
