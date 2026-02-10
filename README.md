@@ -1,8 +1,7 @@
 # Portfolio
-Personal portfolio
 
-Project 1: Newscraper
+**Newscraper** <br> 
 A simple yet powerful news scraper.
-
-Project 2: Vocabolario (gtk-dictionary)
+##
+**Vocabolario** (gtk-dictionary)<br>
 A blazing-fast, butter-smooth dictionary with a polished GTK 3 interface
