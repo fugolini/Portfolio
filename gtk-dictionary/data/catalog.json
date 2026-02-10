@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Dictionary 1",
+        "label": "dictionary1",
+        "database_path": "dictionary1/dictionary1.sqlite",
+        "entries_path": "dictionary1/entries/",
+        "js_path": "dictionary1/dictionary1.js",
+        "css_path": "dictionary1/dictionary1.css"
+    }
+]

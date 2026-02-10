@@ -1,0 +1,14 @@
+Package: vocabolario
+Version: 1.0.4
+Section: utils
+Priority: optional
+Maintainer: Filippo Ugolini <filo.ugolini@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Architecture: all
+Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-webkit2-4.1
+Description: blazing-fast dictionary with a polished GTK3 interface
+ Vocabolario is a lightweight dictionary written in Python that reads 
+ HTML entries indexed in an SQLite database. It features a live preview 
+ and seamless integration with the GNOME desktop.

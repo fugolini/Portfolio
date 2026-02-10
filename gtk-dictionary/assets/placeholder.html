@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55vh;
+        margin: 0;
+        background: transparent;
+        font-family:
+          "Baskervville", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      }
+      .message {
+        color: #888;
+        font-size: 1.3em;
+        text-align: center;
+        animation: {{ANIMATION}};
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(5px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .message {
+          color: #ccc;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="message">{{MESSAGE}}</div>
+  </body>
+</html>
