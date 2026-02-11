@@ -37,7 +37,7 @@ class DictionaryDAO:
             logger.exception(f"Unforeseen error: {e}")
             raise
 
-    def _load_dictionaries_db(self) -> None:
+    def _load_dictionaries_db(self) -> list[dict]:
         """Load all the dictionaries and relative data"""
         try:
             with open(DICTIONARIES_CATALOG, "r", encoding="utf-8") as f:
@@ -51,7 +51,7 @@ class DictionaryDAO:
 
     def _cache_styles_and_js(self) -> None:
         """Loads dictionary-specific CSS and JS"""
-        self.styles_cache = {}  # Struttura: { "NomeDiz": {"css": "...", "js": "..."} }
+        self.styles_cache = {}  
 
         for d in self.dictionaries:
             name = d["name"]
@@ -67,12 +67,12 @@ class DictionaryDAO:
                 logger.error("Dictionary database not found")
                 raise
             except Exception as e:
-                logger.error(f"Errore caricamento stili per {name}: {e}")
+                logger.error(f"Error loading styles for {name}: {e}")
                 self.styles_cache[name] = {"css": "", "js": ""}
                 raise
 
-    def get_current_styles(self) -> None:
-        """Restituisce CSS e JS del dizionario corrente dalla cache (istantaneo)"""
+    def get_current_styles(self) -> dict:
+        """Fetch the cached style"""
         name = self.current_dictionary["name"]
         return self.styles_cache.get(name, {"css": "", "js": ""})
 
@@ -95,10 +95,7 @@ class DictionaryDAO:
         return styled_html, filepath.as_uri()
 
     def search(self, word: str) -> list[tuple[str, str]] | bool:
-        """
-        Search for the 50 most similar words.
-        Return a list of tuples where (headword, filename)
-        """
+        """Search for the 50 most similar words."""
         cur = self.con.cursor()
 
         # Search for prefix first, then substring.
